@@ -1,7 +1,8 @@
 package = "luacheck"
 version = "scm-1"
 source = {
-   url = "git+https://github.com/mpeterv/luacheck.git"
+   url = "git://github.com/mpeterv/luacheck.git",
+   tag = '0.13.0',
 }
 description = {
    summary = "A static analyzer and a linter for Lua",
